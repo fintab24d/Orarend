@@ -1,0 +1,28 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    background-color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+}
+th {
+    background-color: #4CAF50;
+
+}
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #b7ffb9;
+}
+
+.time{
+    background-color:  #4CAF50;
+}
